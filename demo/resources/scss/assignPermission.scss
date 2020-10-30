@@ -1,0 +1,48 @@
+@import "bootstrap3.4.1";
+@import "variables";
+@import "base";
+
+.assignPermission{
+  .assignPermission__title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .assignPermission__table{
+    max-width:800px;
+    min-width:576px;
+    thead{
+      tr th{
+        text-align:center;
+        border-bottom:0px;
+      }
+      tr:first-child{
+        th:nth-child(2) {
+          background-color: #8E9DBE;
+          color:white;
+        }
+      }
+      tr:nth-child(2){
+        th {
+          border-top: 0px;
+        }
+      }
+    }
+    tbody{
+      tr th{
+        text-align: right;
+      }
+      tr td{
+        text-align:center;
+      }
+    }
+    .assignPermission__table--noData{
+      font-size:24px;
+      text-align:center;
+    }
+    .assignPermission__tableButton{
+      text-align:right;
+      margin-right:10px;
+    }
+  }
+}

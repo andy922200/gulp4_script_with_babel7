@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assign Permission</title>
+  <link rel="stylesheet" href="./dist/css/assignPermission.css">
+</head>
+<body>
+  <div class="assignPermission">
+    <div class="assignPermission__title">
+      Role
+    </div>
+
+    <div class="assignPermission__table">
+      <table id="assignPermission__table" class="table table-sm">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col" colspan="4">Basic Access</th>
+          </tr>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Read</th>
+            <th scope="col">Create</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+      <div class="assignPermission__tableButton">
+        <button type="button" class="saveButton btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./dist/js/plugins.js"></script>
+  <script type="text/babel" data-presets="es2015,es2016,es2017" src="./dist/js/assignPermission.js"></script>
+</body>
+</html>
